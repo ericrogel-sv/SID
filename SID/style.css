@@ -1,0 +1,61 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial;
+  color:#222;
+
+  /* 🔥 Fondo estático */
+  background-image: url("");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header principal */
+.hero{
+  background: rgba(11, 61, 145, 0.9);
+  color:#fff;
+  padding:20px;
+}
+
+/* Banner */
+.banner{
+  text-align:center;
+  padding:30px 10px;
+}
+
+/* Secciones */
+section{
+  padding:20px;
+}
+
+/* Tarjetas */
+.card{
+  background: rgba(255,255,255,0.95);
+  border-radius:12px;
+  padding:15px;
+  margin:15px 0;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+/* Imágenes placeholder */
+.img{
+  height:140px;
+  background:#d9d9d9;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* Responsive */
+@media(min-width:768px){
+  body{
+    max-width:500px;
+    margin:auto;
+  }
+}
